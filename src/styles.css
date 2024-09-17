@@ -1,0 +1,16 @@
+:root {
+  --red: #900;
+  --blu: #006;
+  --yelo: #fc1;
+}
+
+body {
+  background: linear-gradient(to top, var(--red), var(--blu));
+  color: var(--yelo);
+  height: 100vh;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
